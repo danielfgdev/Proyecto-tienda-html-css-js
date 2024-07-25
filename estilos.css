@@ -1,0 +1,155 @@
+/* ! ENCABEZADO */
+
+header {
+
+    width: 90%;
+    min-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+
+
+/* ! TAMAÑO IMAGEN D */
+
+#logoImg {
+    width: clamp(100px, 10vw, 160px);
+}
+
+
+/* ! CUERPO */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ! FONDO */
+
+.fondo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    min-width: 50%;
+}
+
+
+/* ! FORMULARIO */
+
+#formulario {
+    width: 100%;
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+
+/* ! TEXTO */
+
+.formText {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* ! INPUT Y DESCRIPCION */
+
+.texto,
+.descripcionPro {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.descripcionPro {
+    width: 60%;
+}
+
+
+/* ! TEXTOS */
+
+#top1,
+#top2,
+#top3 {
+    text-align: center;
+}
+
+#top1 {
+    font-size: clamp(14px, 2vw, 28px);
+}
+
+#top2 {
+    font-size: clamp(12px, 2vw, 16px);
+}
+
+#top3 {
+    font-size: clamp(13px, 2vw, 26px);
+}
+
+
+/* ! PRODUCTOS */
+
+.añadidos {
+    width: 100%;
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.nombreProducto {
+    font-size: clamp(18px, 2vw, 26px);
+    font-weight: bold;
+}
+
+.descripcionProducto {
+    font-size: clamp(16px, 2vw, 24px);
+}
+
+.precioAñadidos {
+    font-size: clamp(13px, 2vw, 26px);
+}
+
+.divCadaProducto {
+    width: 100%;
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+/* ! BOTON */
+
+#boton1 {
+    margin: 10px;
+}
+
+#boton {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}

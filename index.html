@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link id="diaNoche" rel="stylesheet" href="dia.css">
+    <script defer src="script.js"></script>
+    <title>La Danitienda</title>
+    <link rel="shortcut icon"
+        href="https://previews.123rf.com/images/yupiramos/yupiramos1608/yupiramos160829544/62004496-mercado-cesta-compra-icono-del-departamento-de-tienda-de-dise%C3%B1o-ilustraci%C3%B3n-vectorial.jpg"
+        type="image/x-icon">
+</head>
+
+<body>
+
+
+    <button id="botonNoche" type="submit">Dia/Noche</button>
+
+    <header>
+        <a href="index.html">
+            <img id="logoImg" src="https://www.pngplay.com/wp-content/uploads/1/Letter-D-PNG-Background-Image.png"
+                alt="Logo de la pagina">
+        </a>
+
+        <div>
+            <div id="top1">
+                <h1>La Danitienda!!!</h1>
+            </div>
+            <div id="top2">
+                <h2>Una tienda de <u>10</u></h2>
+            </div>
+        </div>
+
+        <div id="top3">
+            <b>
+                <p>TOTAL:</p>
+            </b>
+            <b>
+                <p></p>
+            </b>
+        </div>
+
+    </header>
+
+
+    <div class="fondo">
+
+        <form class="formYAña" id="formulario">
+
+            <div class="formText">
+                <div class="texto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+
+                    <label for="precio">Precio:</label>
+                    <input type="text" id="precio" name="precio">
+
+                    <label for="imagen">Imagen:</label>
+                    <input type="text" id="imagen" name="imagen">
+                </div>
+
+                <div class="descripcionPro">
+                    <label for="descripcion">Descripcion:</label>
+                    <textarea name="descripcion" id="descripcion" cols="20" rows="5"
+                        placeholder="Breve descripcion del producto"></textarea>
+                </div>
+            </div>
+
+            <div id="boton">
+                <button id="boton1" type="submit">Añadir producto</button>
+            </div>
+
+        </form>
+
+
+        <section class="formYAña añadidos" id="listaProductos"> </section>
+
+
+
+    </div>
+</body>
+
+</html>

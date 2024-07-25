@@ -1,0 +1,75 @@
+ /* ! MODO NOCHE  */
+
+
+
+ /* ! ENCABEZADO  */
+
+ header {
+     background-color: #2C2C2C;
+     border: 5px solid #4F4F4F;
+ }
+
+ /* ! CUERPO  */
+
+ body {
+     background: radial-gradient(circle, #1F1F1F, #2C2C2C);
+ }
+
+
+ /* ! FONDO  */
+
+ .fondo {
+
+     border: 5px solid #4F4F4F;
+     background-color: #333;
+ }
+
+
+ /* ! FORMULARIO */
+
+ #formulario {
+
+     border: 5px solid #4F4F4F;
+     background-color: #444;
+ }
+
+ .texto,
+ .descripcionPro {
+     color: #E0E0E0;
+ }
+
+
+ /* ! TEXTOS  */
+
+ #top1 {
+     color: #9C27B0;
+     text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+ }
+
+ #top2 {
+     color: #9C27B0;
+ }
+
+ #top3 {
+     color: #FF5722;
+ }
+
+
+ /* ! PRODUCTOS  */
+
+ .divCadaProducto {
+     border: 5px solid #4F4F4F;
+     background-color: #555;
+ }
+
+ .nombreProducto {
+     color: #E0E0E0;
+ }
+
+ .descripcionProducto {
+     color: #E0E0E0;
+ }
+
+ .precioAñadidos {
+     color: #FF5722;
+ }
